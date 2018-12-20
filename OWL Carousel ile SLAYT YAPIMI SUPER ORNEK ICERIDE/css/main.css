@@ -1,0 +1,86 @@
+#team {
+    background-color: #f2f2f2;
+    position: absolute;
+    top:50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+section{
+    padding:50px;
+}
+.member{
+    position: relative;
+}
+.overlay{
+    background-color: rgba(231, 76, 60, .9);
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 0%;
+ overflow: hidden;
+ opacity: 0;
+ transition: all .3s linear;
+}
+.member:hover .overlay{
+    height: 100%;
+    opacity: 1;
+}
+
+.member-info{
+    text-align: center;
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%,-50%);
+color:white;
+
+}
+.social-list{
+    list-style: none;
+    padding: 0;
+   
+}
+.social-list li{
+   display: inline-block;
+   padding: 0;
+   margin-left: 2px;
+   margin-right: 2px;
+}
+.social-list li a{
+    border:1px solid white;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color:#fff;
+    border-radius: 50%;
+    transition: all .3s linear;
+}
+.social-list li:nth-child(1) a:hover{
+    background-color: #3b5998;
+    border-color:transparent;
+}
+.social-list li:nth-child(2) a:hover{
+    background-color: #00aced;
+    border-color:transparent;
+}
+.social-list li:nth-child(3) a:hover{
+    background-color: #db081b;
+    border-color:transparent;
+}
+
+#members > div.owl-nav > button.owl-prev , #members > div.owl-nav > button.owl-next{
+    color:#e74c3c;
+    font-size: 36px;
+    background: none;
+}
+
+h2{
+    padding-left: 20px;
+    border-left: 3px solid red;
+    }
+    .parap{
+        margin-left: 23px;
+    }

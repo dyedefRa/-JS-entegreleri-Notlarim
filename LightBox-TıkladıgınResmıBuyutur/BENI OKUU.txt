@@ -1,0 +1,11 @@
+js ve css dosyasýný entegre et .
+images dosyanýn projendeki images dosyasýna at
+
+<a href="images/image-1.jpg" data-lightbox="image-1" data-title="My caption">Image #1</a>
+
+
+-data-lightbox=  > Bu att albumlerý ayný albume koyar ýsýmler aynýysa...
+-url eacýlacak url ý koy
+-a nýn arasýna resmi kaplayan divi koy
+
+Boot-Me

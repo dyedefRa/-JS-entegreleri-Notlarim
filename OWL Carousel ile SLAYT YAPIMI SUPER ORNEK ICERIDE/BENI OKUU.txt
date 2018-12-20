@@ -1,0 +1,38 @@
+Offical link :
+ https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html
+ https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html
+--------------------
+css ve js dosyalarýnýn altýnda ki OwlCarousel dosyalarý yeterli yada 
+ https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html   linkine bak.
+
+
+<div class="owl-carousel">
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+</div>
+
+
+
+ $(document).ready(function () {
+            //OWL OLAYI BURADA .
+            //Normalde sadece bu =>
+            // $(".owl-carousel").owlCarousel();
+
+               $(".owl-carousel").owlCarousel({
+                   loop:true,          Sürekli geçsin mi 
+                   autoplay:false,       OtoGeçis
+                   smartSpeed:500,     Geçiþhýzý
+                   nav:true,            ok iþaretleri yapar
+                   dots:false,   Noktayý kaldýrýr
+                   items:3,  Kaçtane item gozuksun
+
+               });
+        });
+
+
+https://owlcarousel2.github.io/OwlCarousel2/docs/api-options.html

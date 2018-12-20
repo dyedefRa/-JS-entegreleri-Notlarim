@@ -1,0 +1,3 @@
+https://lipis.github.io/bootstrap-sweetalert/
+
+https://sweetalert.js.org/guides/

@@ -1,0 +1,24 @@
+PAGEDLIST -GRID MVC (Tabloyu daha detaylý yapar) - CRYPTO - FACEBOOK LIKE
+   https://www.youtube.com/watch?v=RzBwU4OWvpM&list=PLtiQOnu1I5QwT5nsrxUNO2gSfk60fynla&index=30
+MANUEL-DROPZONE (Drofiy gibi)
+   https://www.youtube.com/watch?v=TYmR59zwwe0
+-AJAX.BEGINFORM KULLANIMI,
+-DATATABLE JQUERY PLUG IN
+-jQUERY AUTOCOMPLETE
+
+-IKI DILDE SITE YAPIMI
+   https://www.youtube.com/watch?v=6nlfcmQFSw0&index=30&list=PL5MZid1lr-vLd5ec3m1__Xn_1zvyjhOcD
+-TINYMCE -(CkEditor gibi)
+   https://www.youtube.com/watch?v=iD82M30CVYY&index=2&list=PLBdrqeJ189QwAa56opuLLGodKJfx3OXjs
+*SCROLL PAGGING OLAYI --(topu indirdikçe verilerin yüklenmesi)
+   https://www.youtube.com/watch?v=bx6N3m8Tmv8
+
+-BOOTSRAP VIDEOLARINDA
+1)SMOOTH SCROLLING ( Yavaþca linke gitmesi ayný sayfada)
+2)WOW.js ve animate.css
+3) [Media Query]Overview olayi ( ekran sizesine göre begenmedigimz yerleri degýstrýme kaldýrma vs)
+4)MODAL VIDEO olayi , video  bilgi input açtýrabýlýyosun baþka ekranda..
+5)LIGHTBOX ýle e Ticaret mükemmel hale gelri.
+4)CAROUSEL ile slider yapýmý çok basit
+
+

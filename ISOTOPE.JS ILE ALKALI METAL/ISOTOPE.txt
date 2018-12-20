@@ -1,0 +1,53 @@
+ISOTOPE-OFFICAL
+https://isotope.metafizzy.co/filtering.html
+
+CDN
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+Bir çok butonlarýn olduðu ve altýndada basýlan buton baglý olarak býr nesnenin geldiði olay.
+Orjinalinde alkali metal vs gibi ornekler var
+
+----------------------------------------------
+
+1)
+Butonlarýn kapsandýðý dive=> .nav-filter
+Nesnelerin kapsandýðý dive => .nav-content  dedik
+------------------------------------
+2)main.js dosyana yapýþtýr
+
+
+ var $grid=$('#nav-content').isotope({
+
+  });
+
+  $('#nav-filter').on( 'click', 'button', function() {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({ filter: filterValue });
+  });
+-------------------------------------------------------------
+3) Son olarak hangi butonun hangi classý cagýracagýný soylemelýyýz yaný
+=>(data-filter=" CLASS ISMI")
+
+ <div id="nav-filter" class="my-4">
+@@ ALTTAKI data-filter oalyi onemli sadece
+                    <button class="btn btn-outline-danger mx-2" data-filter="*">All</button>
+                    <button class="btn btn-outline-danger mx-2" data-filter=".web">
+                <button class="btn btn-outline-danger mx-2" data-filter=".mob">
+
+------------------------------------------------------------------------
+4)Hangi gösterilecek nesne hangi class olduðunu belirt yani =>
+#nav-content içindeki bir suru olan ve butona baglý olarak filterelenecek olan o div içindeki kod bütününe ;
+
+ <div class="row" id="nav-content">
+           @@ALTTAKI WEB CLASSI ONEMLI SADECE
+            <div class="col-md-4 col-sm-6 col-xs-12 web">
+                <div class="card mb-4 shadow-lg" style="width: 260px;">
+                    <a href="/img/bayrak.jpg">
+                        <img src="/img/bayrak.jpg" alt="bayrak resmi">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Proje ismi</h5>
+                        <small class="text-muted">Bilgisini yaz</small>
+                    </div>
+                </div>
+            </div>

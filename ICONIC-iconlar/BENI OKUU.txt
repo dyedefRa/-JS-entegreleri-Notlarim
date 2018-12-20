@@ -1,0 +1,4 @@
+1)fonts dosyasýný cssle ayný yere koy..
+2)foundation.css entegre et SADECE..
+
+3 bootsrap ile de icon atabiliyosun içerden beni okuyu oku

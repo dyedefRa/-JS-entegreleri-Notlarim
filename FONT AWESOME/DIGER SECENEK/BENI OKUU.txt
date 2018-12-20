@@ -1,0 +1,9 @@
+DIGER SECENEK BURASI
+
+bu dosyayý dýrek at ve css ýný bu sekýlde al=>
+
+<link href=@Url.Content("/Content/assets/font-awesome/css/font-awesome.css") rel="stylesheet" /> 
+(FLATLABDAKI JS)
+
+kullanýmý =>
+   <i class="icon-book"></i>

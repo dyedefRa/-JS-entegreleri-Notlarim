@@ -1,0 +1,15 @@
+http://bootboxjs.com/
+
+ALERT ISLEMI YAPAR.
+SWAL ILE AYNI ISLEVI VAR.
+
+=>KULLANIMI
+
+ bootbox.alert(data.Message, function () {
+                    //SAYFAYI YENILEMEK
+                    location.reload();
+                    
+                });
+
+
+=> BOOTSRAP OLMALI GALIBA

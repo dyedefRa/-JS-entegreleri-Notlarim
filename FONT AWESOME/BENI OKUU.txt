@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<i class="fa fa-home"></i>
+<i class="fa fa-search"></i>
+<i class="fa fa-cloud"></i>
+<i class="fa fa-trash"></i>
+
+
+------------------------
+Icon buyutmek ýcýn renkte vereýlýyosun color: ile =>>
+
+#team .fa{
+    font-size:24px;
+}
+-------------------------------------------------------------------------
+YADA (DIGER SECENEKE GIT VE)
+<link href=@Url.Content("/Content/assets/font-awesome/css/font-awesome.css") rel="stylesheet" /> 
+(FLATLABDAKI JS)
+
+kullanýmý =>
+   <i class="icon-book"></i>
+
+
+#95a5a6; güzel renk
+
+
+-----FLEXXXXXXXXx
+üssteki dive displaye:flex de
+alttakýlere 
+width ver %33 yada %50 ;
+dlex-grow:1 de hepsýne.. ki ayný buyumeyý saglasýn

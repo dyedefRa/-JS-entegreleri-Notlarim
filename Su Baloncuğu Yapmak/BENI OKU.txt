@@ -1,0 +1,18 @@
+GITHUB LINK=>
+https://github.com/dyedefRa/jquery.ripples 
+
+jquery.ripples-min.js 'i dahil etsen yeterli.
+ama jquery'de olmalı
+
+--------
+$(".wrapper").ripples({
+  dropRadius: 10,
+  perturbance: 0.03
+
+ 
+});
+
+
+dropRadius  : cıkacak baloncukların yarıcapı
+digeri sureklılıgı gıbı dusun sanıyede kac kez vs gıbı
+

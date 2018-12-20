@@ -1,0 +1,16 @@
+
+1)DOSYALARI ENTEGRE ET 
+ve
+--<script>
+ new WOW().init();
+</script>
+
+yaz!!!!
+
+ <div class="container wow zoomIn" data-wow-duration="2s" data-wow-delay="2s">
+
+
+ORNEKLER ==> 
+https://daneden.github.io/animate.css/
+ADVANCED WOW==>
+https://mynameismatthieu.com/WOW/docs.html

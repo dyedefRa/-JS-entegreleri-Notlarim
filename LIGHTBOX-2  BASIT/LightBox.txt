@@ -1,0 +1,31 @@
+URL OFFICAL =>
+http://ashleydw.github.io/lightbox/
+
+CDN
+https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css
+https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js
+
+-------------------------------------------------
+EK OLARAK main.js'ine ekle ki bu olayi tetikle =>
+
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+--------------------------------------------------
+SON OLARAK =>
+
+data-toggle="lightbox" ONEMLI
+Galeri için => data-gallery="example-gallery"
+
+ --ORN1---
+<a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+            </a>
+
+
+---ORN2---
+
+<a href="https://unsplash.it/1200/768.jpg?image=250" data-toggle="lightbox" data-title="A random title" data-footer="A custom footer text">
+    <img src="https://unsplash.it/600.jpg?image=250" class="img-fluid">
+</a>
